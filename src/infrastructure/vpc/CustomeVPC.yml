@@ -101,7 +101,7 @@ Resources:
       AvailabilityZone: !Select
         - 2
         - !GetAZs ''
-      CidrBlock: !Ref PublicSubnet2CIDR
+      CidrBlock: !Ref PublicSubnet3CIDR
       MapPublicIpOnLaunch: true
       Tags:
         - Key: Name
